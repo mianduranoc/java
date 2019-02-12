@@ -74,6 +74,10 @@ public class Ventana extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        int n1=Integer.parseInt(t1.getText());
+        int n2=Integer.parseInt(t2.getText());
+        int n3=n1+n2;
+        l1.setText(n3+"");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
